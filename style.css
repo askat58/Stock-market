@@ -1,3 +1,8 @@
 body {
-  background-color: mediumpurple;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e36bae;
+  color: #f8a1d1;
+}
+.container {
+  background-color: #822659;
 }
