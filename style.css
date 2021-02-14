@@ -1,8 +1,12 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #e36bae;
+  background-color: #ed9eca;
   color: #f8a1d1;
 }
 .container {
   background-color: #822659;
+  border: 3px solid #b34180;
+  box-shadow: 3px 3px 18px #dfcfd8;
+  border-radius: 45px;
+  margin-top: 50px;
 }
