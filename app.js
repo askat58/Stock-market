@@ -55,9 +55,6 @@ function displayData(response) {
     } 
   }
 
-  
-
-  
 }
 
 function searchCode() {

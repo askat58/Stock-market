@@ -34,17 +34,34 @@ h2 {
 }
 
 p {
+  border: 1px solid #0b522b;
+  border-radius: 10px;
   color: #0a0404;
   background-color: #34ce40;
   text-align: justify;
+  padding: 10px;
 }
 
 #currency-code,
 #currency-symbol {
+  border: 1px solid #01f45a;
+  border-radius: 10px;
   background-color: #01f45a;
 }
 
 #currency-name {
+  border: 1px solid #01f45a;
+  border-radius: 10px;
   background-color: #01f45a;
-  margin-right: 20px;
+  margin-right: 25px;
+}
+
+.footer-link {
+  color: #60e1b4;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.footer-link:hover {
+  color: #d7fae1;
 }
