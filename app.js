@@ -48,7 +48,7 @@ function displayData(response) {
   let inputData = codeInputElement.value.toUpperCase(); 
 
   for (let index = 0; index < 42; index++) {
-    if (currencies[index] == inputData) {
+    if (currencies[index] === inputData) {
       let selectedCode = document.querySelector("#currency-code").innerHTML = response.data.data[index].code;
       let selectedName = document.querySelector("#currency-name").innerHTML = response.data.data[index].name;
       let selectedSymbol = document.querySelector("#currency-symbol").innerHTML = response.data.data[index].symbol;
