@@ -7,6 +7,7 @@ body {
   background-color: #822659;
   border: 3px solid #b34180;
   box-shadow: 3px 3px 18px #dfcfd8;
-  border-radius: 45px;
-  margin-top: 50px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-top: 60px;
 }
