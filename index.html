@@ -11,40 +11,53 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">  
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <title>Currency Market</title>
+  <title>Currency Finder</title>
 </head>
 <body>
   <div class="container">
+    <h1 id="actual"></h1>
+    <h2>
+      Currency finder
+    </h2>
     <div class="stock-market fw-bold">
       <div class="row align-items-center text-center m-3">
-        <div id="currency-code" class="col-12 text-uppercase fs-1">
-        Code of currency
+        <div id="currency-code" class="col-12 text-uppercase fs-3">
+        Select your currency..
         </div>
       </div>
 
-      <div class="row">
-        <div class="row align-items-center text-center fs-3">
-          <div id="currency-name" class="col">
+      <div class="row mb-3">
+        <div class="row align-items-center text-center fs-5">
+          <div class="col-8 colors">
             Name of currency
           </div>
-          <div id="currency-symbol" class="col">
+          <div class="col-4 colors">
             Symbol
           </div>
         </div>
       </div>
 
+      <div class="row mx-5">
+        <div class="row align-items-center text-center">
+          <div id="currency-name" class="col-7"></div>
+          <div id="currency-symbol" class="col-4"></div>
+        </div>
+      </div>
+
       <form >
-        <div class="form-group row align-items-center text-center m-4">
-          <div class="col-7">
-            <input id="search-currency" type="search" placeholder="Type a currency..." class="form-control" autofocus />
+        <div class="row form-group align-items-center text-center m-4">
+          <div class="col-9">
+            <input id="search-currency" type="search" placeholder="Type a currency code..." class="form-control-sm w-100" autofocus />
           </div>
-          <div class="col-4">
-            <input type="submit" id="submit-button" value="Search" class="btn btn-light"
+          <div class="col-3">
+            <input type="submit" id="submit-button" value="Search" class="btn-sm btn-dark"
               autocomplete="off" />
           </div>
         </div>
       </form>
     </div>
+    <p>Available 42 currency codes: USD, ARS, EUR, BHD, BRL, CAD, CLP, CNY, COP, DKK, EGP, HKD, HUF, ISK, INR, IDR, ILS, JPY, MYR, MXN, NZD, NGN, NOK, PKR, PEN, PHP, QAR, RUB, SAR, SGD, ZAR, KRW, CHF, TWD, THB, TRY, AED, GBP, VND, AUD, SEK", PLN.
+    </p>
   </div>
 </body>
 <script src="app.js"></script>
