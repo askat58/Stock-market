@@ -52,6 +52,7 @@ function displayData(response) {
       let selectedCode = document.querySelector("#currency-code").innerHTML = response.data.data[index].code;
       let selectedName = document.querySelector("#currency-name").innerHTML = response.data.data[index].name;
       let selectedSymbol = document.querySelector("#currency-symbol").innerHTML = response.data.data[index].symbol;
+      alert("Great choice!💸💸💸");
     } 
   }
 
